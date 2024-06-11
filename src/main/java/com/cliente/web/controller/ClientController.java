@@ -33,7 +33,7 @@ public class ClientController {
     }
 
     @GetMapping(params = "cpf")
-    private ResponseEntity<ClientResponseDto> getByCpf(@RequestParam("cpf") String cpf) {
+    private ResponseEntity<ClientResponseDto> dataClient(@RequestParam("cpf") String cpf) {
         try {
 
 
